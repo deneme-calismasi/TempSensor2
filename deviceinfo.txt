@@ -1,0 +1,199 @@
+/* 1 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df75"),
+    "deviceId" : "L1_D01",
+    "prevDeviceId" : NaN,
+    "nextDeviceId" : "L1_D02,L1_D03"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df76"),
+    "deviceId" : "L1_D02",
+    "prevDeviceId" : "L1_D01",
+    "nextDeviceId" : "L1_D03,L1_D04"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df77"),
+    "deviceId" : "L1_D03",
+    "prevDeviceId" : "L1_D01,L1_D02",
+    "nextDeviceId" : "L1_D04,L1_D05"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df78"),
+    "deviceId" : "L1_D04",
+    "prevDeviceId" : "L1_D02,L1_D03",
+    "nextDeviceId" : "L1_D05,L1_D06"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df79"),
+    "deviceId" : "L1_D05",
+    "prevDeviceId" : "L1_D03,L1_D04",
+    "nextDeviceId" : "L1_D06,L1_D07"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df7a"),
+    "deviceId" : "L1_D06",
+    "prevDeviceId" : "L1_D04,L1_D05",
+    "nextDeviceId" : "L1_D07,L1_D08"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df7b"),
+    "deviceId" : "L1_D07",
+    "prevDeviceId" : "L1_D05,L1_D06",
+    "nextDeviceId" : "L1_D08,L1_D09"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df7c"),
+    "deviceId" : "L1_D08",
+    "prevDeviceId" : "L1_D06,L1_D07",
+    "nextDeviceId" : "L1_D09,L1_D10"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df7d"),
+    "deviceId" : "L1_D09",
+    "prevDeviceId" : "L1_D07,L1_D08",
+    "nextDeviceId" : "L1_D10,L1_D11"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df7e"),
+    "deviceId" : "L1_D10",
+    "prevDeviceId" : "L1_D08,L1_D09",
+    "nextDeviceId" : "L1_D11,L1_D12"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df7f"),
+    "deviceId" : "L1_D11",
+    "prevDeviceId" : "L1_D09,L1_D10",
+    "nextDeviceId" : "L1_D12,L1_D13"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df80"),
+    "deviceId" : "L1_D12",
+    "prevDeviceId" : "L1_D10,L1_D11",
+    "nextDeviceId" : "L1_D13,L1_D14"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df81"),
+    "deviceId" : "L1_D13",
+    "prevDeviceId" : "L1_D11,L1_D12",
+    "nextDeviceId" : "L1_D14,L1_D15"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df82"),
+    "deviceId" : "L1_D14",
+    "prevDeviceId" : "L1_D12,L1_D13",
+    "nextDeviceId" : "L1_D15,L1_D16"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df83"),
+    "deviceId" : "L1_D15",
+    "prevDeviceId" : "L1_D13,L1_D14",
+    "nextDeviceId" : "L1_D16,L1_D17"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df84"),
+    "deviceId" : "L1_D16",
+    "prevDeviceId" : "L1_D14,L1_D15",
+    "nextDeviceId" : "L1_D17,L1_D18"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df85"),
+    "deviceId" : "L1_D17",
+    "prevDeviceId" : "L1_D15,L1_D16",
+    "nextDeviceId" : "L1_D18,L1_D19"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df86"),
+    "deviceId" : "L1_D18",
+    "prevDeviceId" : "L1_D16,L1_D17",
+    "nextDeviceId" : "L1_D19,L1_D20"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df87"),
+    "deviceId" : "L1_D19",
+    "prevDeviceId" : "L1_D17,L1_D18",
+    "nextDeviceId" : "L1_D20,L1_D21"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df88"),
+    "deviceId" : "L1_D20",
+    "prevDeviceId" : "L1_D18,L1_D19",
+    "nextDeviceId" : "L1_D21,L1_D22"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df89"),
+    "deviceId" : "L1_D21",
+    "prevDeviceId" : "L1_D19,L1_D20",
+    "nextDeviceId" : "L1_D22,L1_D23"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df8a"),
+    "deviceId" : "L1_D22",
+    "prevDeviceId" : "L1_D20,L1_D21",
+    "nextDeviceId" : "L1_D23,L1_D24"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df8b"),
+    "deviceId" : "L1_D23",
+    "prevDeviceId" : "L1_D21,L1_D22",
+    "nextDeviceId" : "L1_D24,L1_D25"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df8c"),
+    "deviceId" : "L1_D24",
+    "prevDeviceId" : "L1_D22,L1_D23",
+    "nextDeviceId" : "L1_D25"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5fbcef2bfae904163b54df8d"),
+    "deviceId" : "L1_D25",
+    "prevDeviceId" : "L1_D23,L1_D24",
+    "nextDeviceId" : NaN
+}
