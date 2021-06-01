@@ -1,6 +1,7 @@
 import base64
 import struct
 
+
 class Encoder():
     @staticmethod
     def getValues(hexValue):
@@ -11,4 +12,4 @@ class Encoder():
         sensor4 = struct.unpack('!f', bytes.fromhex(sensors[24:32]))[0]
         sensor5 = struct.unpack('!f', bytes.fromhex(sensors[32:40]))[0]
 
-        return(sensor1, sensor2, sensor3, sensor4, sensor5)
+        return (sensor1, sensor2, sensor3, sensor4, sensor5)

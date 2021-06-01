@@ -11,7 +11,7 @@ result = cnf.cnfOperation.readLineInfo()
 time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 data = list()
 
-#print(len(result))
+# print(len(result))
 for prop in result:
     line = int(prop)
     print("Line: ", prop)
@@ -23,11 +23,10 @@ for prop in result:
     print("Min Sensor No: ", startSen)
     print("Max Sensor No: ", endSen)
 
-    for i in range(startSen, endSen+1):
-        
+    for i in range(startSen, endSen + 1):
         row = list()
-        maks = modbusOperations.ModbusOperation.readSensorTempDiff(line,i)[0]
-        diff = modbusOperations.ModbusOperation.readSensorTempDiff(line,i)[1]
+        maks = modbusOperations.ModbusOperation.readSensorTempDiff(line, i)[0]
+        diff = modbusOperations.ModbusOperation.readSensorTempDiff(line, i)[1]
         row.append(line)
         row.append(i)
         row.append(time)
@@ -39,7 +38,7 @@ for prop in result:
 df = pd.DataFrame(data)
 df.columns = ["Line", "Sensor", "Time", "Temp", "TempDiff"]
 print(df.head())
-insertedIds = dbOperations.DbOperation.writeToAnalyticsCollection("Analytics","devicetempshist",df)
+insertedIds = dbOperations.DbOperation.writeToAnalyticsCollection("Analytics", "devicetempshist", df)
 
 '''
 temp1 = modbusOperations.ModbusOperation.readFromModBus(1,1,"L1")
@@ -55,7 +54,7 @@ temp4 = modbusOperations.ModbusOperation.readFromModBus(1,1,"OUT")
 print(temp4)
 '''
 
-#print(modbusOperations.ModbusOperation.readSensorTempDiff(1,3))
+# print(modbusOperations.ModbusOperation.readSensorTempDiff(1,3))
 
 
 """
@@ -86,7 +85,6 @@ db.getCollection('devicetemps').find({"deviceId":/L1/})
 
 """
 
-
 """
 
 dfSensors = pd.read_csv("deviceMap.csv", sep=";")
@@ -113,5 +111,3 @@ else:
     print("haftaici")
 
 '''
-
-
