@@ -36,12 +36,12 @@ class ModbusOperation():
             myClient.open()
             regs = myClient.read_holding_registers(regNo, 2)
 
-            # print(regs)
+            print("REGS", regs)
             regs[0], regs[1] = regs[1], regs[0]
             data_bytes = np.array(regs, dtype=np.uint16)
             result = data_bytes.view(dtype=np.float32)
             myClient.close()
-            # print(result[0])
+            print("result", result[0])
             return result[0]
 
         except Exception as e:
